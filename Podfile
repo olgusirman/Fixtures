@@ -1,5 +1,10 @@
 platform :ios, '12.0'
 
+def testPods
+    pod 'RxBlocking'
+    pod 'RxTest'
+end
+
 def rxPods
     pod 'RxSwift'
     pod 'RxCocoa'
@@ -20,4 +25,14 @@ target 'Fixtures' do
   rxPods
   servicePods
   uiPods
+  testPods
 end
+
+target 'FixturesTests' do
+  use_frameworks!
+  rxPods
+  servicePods
+  uiPods
+  testPods
+end
+

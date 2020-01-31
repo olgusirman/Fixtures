@@ -10,6 +10,8 @@ PODS:
     - Moya/Core
     - RxSwift (~> 5.0)
   - Nuke (8.4.0)
+  - RxBlocking (5.0.1):
+    - RxSwift (~> 5)
   - RxCocoa (5.0.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
@@ -20,14 +22,18 @@ PODS:
   - RxRelay (5.0.1):
     - RxSwift (~> 5)
   - RxSwift (5.0.1)
+  - RxTest (5.0.1):
+    - RxSwift (~> 5)
 
 DEPENDENCIES:
   - Action
   - Moya/RxSwift (~> 14.0.0-beta.6)
   - Nuke
+  - RxBlocking
   - RxCocoa
   - RxDataSources
   - RxSwift
+  - RxTest
 
 SPEC REPOS:
   trunk:
@@ -36,10 +42,12 @@ SPEC REPOS:
     - Differentiator
     - Moya
     - Nuke
+    - RxBlocking
     - RxCocoa
     - RxDataSources
     - RxRelay
     - RxSwift
+    - RxTest
 
 SPEC CHECKSUMS:
   Action: 0d14986aad0f1330aa27ce65d0cdeaacbb63d91c
@@ -47,11 +55,13 @@ SPEC CHECKSUMS:
   Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   Moya: d4821fbcb3e784f34d2f82869e6855057a0b85d1
   Nuke: fa6f784c4f7e1c0f9313668510186c68b7af2509
+  RxBlocking: c5e090f42d046df8b0e7752742510f349963710f
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
   RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
   RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  RxTest: 0132f952a61da82d5233abedaa559df91e5330e5
 
-PODFILE CHECKSUM: 6e0a39a994e30b9cab49174f3246c1197e1b5011
+PODFILE CHECKSUM: 4cc36b8477afae355dbfd8e7ba6391370e2ee7b9
 
 COCOAPODS: 1.8.4
