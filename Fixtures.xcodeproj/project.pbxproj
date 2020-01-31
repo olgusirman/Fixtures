@@ -46,6 +46,7 @@
 		058F920E23E44FB800E8CA5B /* MatchCellScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F920D23E44FB800E8CA5B /* MatchCellScoreView.swift */; };
 		058F921023E44FE600E8CA5B /* MatchCellTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F920F23E44FE600E8CA5B /* MatchCellTeamView.swift */; };
 		058F921223E4503200E8CA5B /* MatchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 058F921123E4503200E8CA5B /* MatchCell.xib */; };
+		058F921423E4529900E8CA5B /* FixturesViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F921323E4529900E8CA5B /* FixturesViewModelTests.swift */; };
 		2685D7EB3C530F641023C614 /* Pods_Fixtures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7EDF1A26E818EA707D1F67 /* Pods_Fixtures.framework */; };
 		97412FB0C3FB93FCE157E857 /* Pods_FixturesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43FECEBBF901F8D851D5315 /* Pods_FixturesTests.framework */; };
 		D87E87D6213D6CF800D81EA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E87D5213D6CF800D81EA0 /* AppDelegate.swift */; };
@@ -106,6 +107,7 @@
 		058F920D23E44FB800E8CA5B /* MatchCellScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCellScoreView.swift; sourceTree = "<group>"; };
 		058F920F23E44FE600E8CA5B /* MatchCellTeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCellTeamView.swift; sourceTree = "<group>"; };
 		058F921123E4503200E8CA5B /* MatchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MatchCell.xib; sourceTree = "<group>"; };
+		058F921323E4529900E8CA5B /* FixturesViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesViewModelTests.swift; sourceTree = "<group>"; };
 		193A015DF768C2FCEEEC9243 /* Pods-Fixtures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fixtures.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fixtures/Pods-Fixtures.release.xcconfig"; sourceTree = "<group>"; };
 		2D7EDF1A26E818EA707D1F67 /* Pods_Fixtures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fixtures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		335AC0FD85019A20A5CF75DA /* Pods-FixturesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FixturesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FixturesTests/Pods-FixturesTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,8 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				058F91A623E42FB200E8CA5B /* Idenfitiable */,
-				058F919E23E42F1800E8CA5B /* Utils */,
 				058F919B23E42F0E00E8CA5B /* Service */,
+				058F919E23E42F1800E8CA5B /* Utils */,
 			);
 			path = Infrastructure;
 			sourceTree = "<group>";
@@ -154,9 +156,9 @@
 			isa = PBXGroup;
 			children = (
 				058F91C923E435EB00E8CA5B /* Error */,
-				058F91C223E4347E00E8CA5B /* Samples */,
 				058F91C123E4347600E8CA5B /* Implementation */,
 				058F91BF23E4346600E8CA5B /* Request */,
+				058F91C223E4347E00E8CA5B /* Samples */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -165,9 +167,9 @@
 			isa = PBXGroup;
 			children = (
 				058F91A023E42F5100E8CA5B /* BindableType.swift */,
+				058F91D523E436F300E8CA5B /* Config.swift */,
 				058F91A223E42F7200E8CA5B /* Rx+.swift */,
 				058F91A423E42F9600E8CA5B /* StoryboardIdentifiable.swift */,
-				058F91D523E436F300E8CA5B /* Config.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -175,12 +177,12 @@
 		058F91A623E42FB200E8CA5B /* Idenfitiable */ = {
 			isa = PBXGroup;
 			children = (
-				058F91A723E42FD100E8CA5B /* UITableView+Identifiable.swift */,
+				058F91AD23E4301C00E8CA5B /* ClassIdentifiable.swift */,
 				058F91A923E42FEF00E8CA5B /* CollectionView+Idenfitiable.swift */,
 				058F91AB23E4300500E8CA5B /* NibIdentifiable.swift */,
-				058F91AD23E4301C00E8CA5B /* ClassIdentifiable.swift */,
 				058F91AF23E4308B00E8CA5B /* UIStoryboard+.swift */,
 				058F91B123E430A900E8CA5B /* UITableView+.swift */,
+				058F91A723E42FD100E8CA5B /* UITableView+Identifiable.swift */,
 			);
 			path = Idenfitiable;
 			sourceTree = "<group>";
@@ -188,10 +190,10 @@
 		058F91B323E4311F00E8CA5B /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				D87E87DE213D6CF900D81EA0 /* LaunchScreen.storyboard */,
-				D87E87D9213D6CF800D81EA0 /* Main.storyboard */,
 				D87E87D5213D6CF800D81EA0 /* AppDelegate.swift */,
 				058F91BC23E4327400E8CA5B /* LaunchManager.swift */,
+				D87E87DE213D6CF900D81EA0 /* LaunchScreen.storyboard */,
+				D87E87D9213D6CF800D81EA0 /* Main.storyboard */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -215,17 +217,17 @@
 		058F91B623E4312800E8CA5B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				058F91E123E43C1400E8CA5B /* Area.swift */,
 				058F91D723E4371D00E8CA5B /* Base.swift */,
+				058F91DF23E43BFB00E8CA5B /* Competition.swift */,
+				058F91E723E43C5300E8CA5B /* ExtraTime.swift */,
 				058F91D923E43B9200E8CA5B /* Filters.swift */,
 				058F91DB23E43BD400E8CA5B /* Match.swift */,
-				058F91DD23E43BE200E8CA5B /* Team.swift */,
-				058F91DF23E43BFB00E8CA5B /* Competition.swift */,
-				058F91E123E43C1400E8CA5B /* Area.swift */,
 				058F91E323E43C3100E8CA5B /* Referee.swift */,
 				058F91E523E43C4200E8CA5B /* Score.swift */,
-				058F91E723E43C5300E8CA5B /* ExtraTime.swift */,
 				058F91E923E43C6300E8CA5B /* Season.swift */,
 				058F91EB23E43C7100E8CA5B /* Status.swift */,
+				058F91DD23E43BE200E8CA5B /* Team.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -234,8 +236,8 @@
 			isa = PBXGroup;
 			children = (
 				058F920123E44EE700E8CA5B /* Cell */,
-				058F920023E44EE500E8CA5B /* ViewModel */,
 				058F91FF23E44EDD00E8CA5B /* Controller */,
+				058F920023E44EE500E8CA5B /* ViewModel */,
 			);
 			path = Fixtures;
 			sourceTree = "<group>";
@@ -251,9 +253,9 @@
 		058F91C123E4347600E8CA5B /* Implementation */ = {
 			isa = PBXGroup;
 			children = (
-				058F91CF23E4367700E8CA5B /* FixturesTarget.swift */,
 				058F91D123E4369B00E8CA5B /* FixtureServiceType.swift */,
 				058F91D323E436CB00E8CA5B /* FixturesService.swift */,
+				058F91CF23E4367700E8CA5B /* FixturesTarget.swift */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -280,6 +282,7 @@
 			children = (
 				058F91F523E4410400E8CA5B /* Info.plist */,
 				058F91FB23E4412400E8CA5B /* FixturesServiceTests.swift */,
+				058F921323E4529900E8CA5B /* FixturesViewModelTests.swift */,
 			);
 			path = FixturesTests;
 			sourceTree = "<group>";
@@ -303,9 +306,9 @@
 		058F920123E44EE700E8CA5B /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				058F920823E44F6A00E8CA5B /* HelperViews */,
-				058F920423E44F3C00E8CA5B /* MatchCellViewModel.swift */,
 				058F920623E44F5400E8CA5B /* MatchCell.swift */,
+				058F920423E44F3C00E8CA5B /* MatchCellViewModel.swift */,
+				058F920823E44F6A00E8CA5B /* HelperViews */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -313,8 +316,8 @@
 		058F920823E44F6A00E8CA5B /* HelperViews */ = {
 			isa = PBXGroup;
 			children = (
-				058F920923E44F7A00E8CA5B /* MatchCellScheduledView.swift */,
 				058F920B23E44F9300E8CA5B /* MatchCellHeaderView.swift */,
+				058F920923E44F7A00E8CA5B /* MatchCellScheduledView.swift */,
 				058F920D23E44FB800E8CA5B /* MatchCellScoreView.swift */,
 				058F920F23E44FE600E8CA5B /* MatchCellTeamView.swift */,
 				058F921123E4503200E8CA5B /* MatchCell.xib */,
@@ -561,6 +564,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				058F921423E4529900E8CA5B /* FixturesViewModelTests.swift in Sources */,
 				058F91FC23E4412400E8CA5B /* FixturesServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
