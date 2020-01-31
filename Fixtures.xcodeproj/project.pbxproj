@@ -65,8 +65,6 @@
 			children = (
 				058F91A623E42FB200E8CA5B /* Idenfitiable */,
 				058F919E23E42F1800E8CA5B /* Utils */,
-				058F919D23E42F1300E8CA5B /* Identifiable */,
-				058F919C23E42F1100E8CA5B /* UI */,
 				058F919B23E42F0E00E8CA5B /* Service */,
 			);
 			path = Infrastructure;
@@ -77,20 +75,6 @@
 			children = (
 			);
 			path = Service;
-			sourceTree = "<group>";
-		};
-		058F919C23E42F1100E8CA5B /* UI */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		058F919D23E42F1300E8CA5B /* Identifiable */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Identifiable;
 			sourceTree = "<group>";
 		};
 		058F919E23E42F1800E8CA5B /* Utils */ = {
@@ -114,6 +98,48 @@
 				058F91B123E430A900E8CA5B /* UITableView+.swift */,
 			);
 			path = Idenfitiable;
+			sourceTree = "<group>";
+		};
+		058F91B323E4311F00E8CA5B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D87E87DE213D6CF900D81EA0 /* LaunchScreen.storyboard */,
+				D87E87D9213D6CF800D81EA0 /* Main.storyboard */,
+				D87E87D5213D6CF800D81EA0 /* AppDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		058F91B423E4312200E8CA5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D87E87DC213D6CF900D81EA0 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		058F91B523E4312500E8CA5B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				058F91B723E4314200E8CA5B /* Fixtures */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		058F91B623E4312800E8CA5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D8298DE3213D798100051654 /* Match.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		058F91B723E4314200E8CA5B /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				D87E87D7213D6CF800D81EA0 /* FixturesViewController.swift */,
+			);
+			path = Fixtures;
 			sourceTree = "<group>";
 		};
 		12EF9AAAA37C861B5438CEDC /* Frameworks */ = {
@@ -154,14 +180,12 @@
 		D87E87D4213D6CF800D81EA0 /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
-				058F919A23E42F0000E8CA5B /* Infrastructure */,
-				D87E87D5213D6CF800D81EA0 /* AppDelegate.swift */,
-				D87E87D7213D6CF800D81EA0 /* FixturesViewController.swift */,
-				D87E87D9213D6CF800D81EA0 /* Main.storyboard */,
-				D87E87DC213D6CF900D81EA0 /* Assets.xcassets */,
-				D87E87DE213D6CF900D81EA0 /* LaunchScreen.storyboard */,
 				D87E87E1213D6CF900D81EA0 /* Info.plist */,
-				D8298DE3213D798100051654 /* Match.swift */,
+				058F91B323E4311F00E8CA5B /* Base */,
+				058F919A23E42F0000E8CA5B /* Infrastructure */,
+				058F91B623E4312800E8CA5B /* Models */,
+				058F91B423E4312200E8CA5B /* Resources */,
+				058F91B523E4312500E8CA5B /* Scenes */,
 			);
 			path = Fixtures;
 			sourceTree = "<group>";
