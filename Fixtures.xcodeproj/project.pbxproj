@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0556248623E4748C00CF4F62 /* getHullMatches.json in Resources */ = {isa = PBXBuildFile; fileRef = 058F91C423E4348C00E8CA5B /* getHullMatches.json */; };
 		058F91A123E42F5100E8CA5B /* BindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91A023E42F5100E8CA5B /* BindableType.swift */; };
 		058F91A323E42F7200E8CA5B /* Rx+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91A223E42F7200E8CA5B /* Rx+.swift */; };
 		058F91A523E42F9600E8CA5B /* StoryboardIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91A423E42F9600E8CA5B /* StoryboardIdentifiable.swift */; };
@@ -464,6 +465,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0556248623E4748C00CF4F62 /* getHullMatches.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,7 +25,6 @@ target 'Fixtures' do
   rxPods
   servicePods
   uiPods
-  testPods
 end
 
 target 'FixturesTests' do
