@@ -16,10 +16,11 @@
 		058F91AE23E4301C00E8CA5B /* ClassIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91AD23E4301C00E8CA5B /* ClassIdentifiable.swift */; };
 		058F91B023E4308B00E8CA5B /* UIStoryboard+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91AF23E4308B00E8CA5B /* UIStoryboard+.swift */; };
 		058F91B223E430A900E8CA5B /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91B123E430A900E8CA5B /* UITableView+.swift */; };
+		058F91BB23E4323B00E8CA5B /* FixturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91BA23E4323B00E8CA5B /* FixturesViewController.swift */; };
+		058F91BD23E4327400E8CA5B /* LaunchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91BC23E4327400E8CA5B /* LaunchManager.swift */; };
 		2685D7EB3C530F641023C614 /* Pods_Fixtures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7EDF1A26E818EA707D1F67 /* Pods_Fixtures.framework */; };
 		D8298DE4213D798100051654 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8298DE3213D798100051654 /* Match.swift */; };
 		D87E87D6213D6CF800D81EA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E87D5213D6CF800D81EA0 /* AppDelegate.swift */; };
-		D87E87D8213D6CF800D81EA0 /* FixturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E87D7213D6CF800D81EA0 /* FixturesViewController.swift */; };
 		D87E87DB213D6CF800D81EA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87E87D9213D6CF800D81EA0 /* Main.storyboard */; };
 		D87E87DD213D6CF900D81EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D87E87DC213D6CF900D81EA0 /* Assets.xcassets */; };
 		D87E87E0213D6CF900D81EA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87E87DE213D6CF900D81EA0 /* LaunchScreen.storyboard */; };
@@ -35,13 +36,14 @@
 		058F91AD23E4301C00E8CA5B /* ClassIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassIdentifiable.swift; sourceTree = "<group>"; };
 		058F91AF23E4308B00E8CA5B /* UIStoryboard+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+.swift"; sourceTree = "<group>"; };
 		058F91B123E430A900E8CA5B /* UITableView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+.swift"; sourceTree = "<group>"; };
+		058F91BA23E4323B00E8CA5B /* FixturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesViewController.swift; sourceTree = "<group>"; };
+		058F91BC23E4327400E8CA5B /* LaunchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchManager.swift; sourceTree = "<group>"; };
 		193A015DF768C2FCEEEC9243 /* Pods-Fixtures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fixtures.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fixtures/Pods-Fixtures.release.xcconfig"; sourceTree = "<group>"; };
 		2D7EDF1A26E818EA707D1F67 /* Pods_Fixtures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fixtures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E997DC7474396999B3A62F6 /* Pods-Fixtures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fixtures.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fixtures/Pods-Fixtures.debug.xcconfig"; sourceTree = "<group>"; };
 		D8298DE3213D798100051654 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		D87E87D2213D6CF800D81EA0 /* Fixtures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fixtures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87E87D5213D6CF800D81EA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D87E87D7213D6CF800D81EA0 /* FixturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesViewController.swift; sourceTree = "<group>"; };
 		D87E87DA213D6CF800D81EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D87E87DC213D6CF900D81EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D87E87DF213D6CF900D81EA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				D87E87DE213D6CF900D81EA0 /* LaunchScreen.storyboard */,
 				D87E87D9213D6CF800D81EA0 /* Main.storyboard */,
 				D87E87D5213D6CF800D81EA0 /* AppDelegate.swift */,
+				058F91BC23E4327400E8CA5B /* LaunchManager.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -137,7 +140,7 @@
 		058F91B723E4314200E8CA5B /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
-				D87E87D7213D6CF800D81EA0 /* FixturesViewController.swift */,
+				058F91BA23E4323B00E8CA5B /* FixturesViewController.swift */,
 			);
 			path = Fixtures;
 			sourceTree = "<group>";
@@ -303,7 +306,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				058F91A123E42F5100E8CA5B /* BindableType.swift in Sources */,
-				D87E87D8213D6CF800D81EA0 /* FixturesViewController.swift in Sources */,
 				058F91AA23E42FEF00E8CA5B /* CollectionView+Idenfitiable.swift in Sources */,
 				058F91A523E42F9600E8CA5B /* StoryboardIdentifiable.swift in Sources */,
 				058F91AE23E4301C00E8CA5B /* ClassIdentifiable.swift in Sources */,
@@ -311,6 +313,8 @@
 				D87E87D6213D6CF800D81EA0 /* AppDelegate.swift in Sources */,
 				058F91AC23E4300500E8CA5B /* NibIdentifiable.swift in Sources */,
 				058F91A323E42F7200E8CA5B /* Rx+.swift in Sources */,
+				058F91BD23E4327400E8CA5B /* LaunchManager.swift in Sources */,
+				058F91BB23E4323B00E8CA5B /* FixturesViewController.swift in Sources */,
 				058F91B223E430A900E8CA5B /* UITableView+.swift in Sources */,
 				058F91B023E4308B00E8CA5B /* UIStoryboard+.swift in Sources */,
 				D8298DE4213D798100051654 /* Match.swift in Sources */,
