@@ -18,6 +18,15 @@
 		058F91B223E430A900E8CA5B /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91B123E430A900E8CA5B /* UITableView+.swift */; };
 		058F91BB23E4323B00E8CA5B /* FixturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91BA23E4323B00E8CA5B /* FixturesViewController.swift */; };
 		058F91BD23E4327400E8CA5B /* LaunchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91BC23E4327400E8CA5B /* LaunchManager.swift */; };
+		058F91C523E4348C00E8CA5B /* teams.json in Resources */ = {isa = PBXBuildFile; fileRef = 058F91C323E4348C00E8CA5B /* teams.json */; };
+		058F91C623E4348C00E8CA5B /* getHullMatches.json in Resources */ = {isa = PBXBuildFile; fileRef = 058F91C423E4348C00E8CA5B /* getHullMatches.json */; };
+		058F91CB23E435F500E8CA5B /* FixturesError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91CA23E435F500E8CA5B /* FixturesError.swift */; };
+		058F91CE23E4365100E8CA5B /* GetMatchesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91CD23E4365100E8CA5B /* GetMatchesRequest.swift */; };
+		058F91D023E4367700E8CA5B /* FixturesTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91CF23E4367700E8CA5B /* FixturesTarget.swift */; };
+		058F91D223E4369B00E8CA5B /* FixtureServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91D123E4369B00E8CA5B /* FixtureServiceType.swift */; };
+		058F91D423E436CB00E8CA5B /* FixturesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91D323E436CB00E8CA5B /* FixturesService.swift */; };
+		058F91D623E436F300E8CA5B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91D523E436F300E8CA5B /* Config.swift */; };
+		058F91D823E4371D00E8CA5B /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91D723E4371D00E8CA5B /* Base.swift */; };
 		2685D7EB3C530F641023C614 /* Pods_Fixtures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7EDF1A26E818EA707D1F67 /* Pods_Fixtures.framework */; };
 		D8298DE4213D798100051654 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8298DE3213D798100051654 /* Match.swift */; };
 		D87E87D6213D6CF800D81EA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E87D5213D6CF800D81EA0 /* AppDelegate.swift */; };
@@ -38,6 +47,15 @@
 		058F91B123E430A900E8CA5B /* UITableView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+.swift"; sourceTree = "<group>"; };
 		058F91BA23E4323B00E8CA5B /* FixturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesViewController.swift; sourceTree = "<group>"; };
 		058F91BC23E4327400E8CA5B /* LaunchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchManager.swift; sourceTree = "<group>"; };
+		058F91C323E4348C00E8CA5B /* teams.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teams.json; sourceTree = "<group>"; };
+		058F91C423E4348C00E8CA5B /* getHullMatches.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = getHullMatches.json; sourceTree = "<group>"; };
+		058F91CA23E435F500E8CA5B /* FixturesError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesError.swift; sourceTree = "<group>"; };
+		058F91CD23E4365100E8CA5B /* GetMatchesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMatchesRequest.swift; sourceTree = "<group>"; };
+		058F91CF23E4367700E8CA5B /* FixturesTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesTarget.swift; sourceTree = "<group>"; };
+		058F91D123E4369B00E8CA5B /* FixtureServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureServiceType.swift; sourceTree = "<group>"; };
+		058F91D323E436CB00E8CA5B /* FixturesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesService.swift; sourceTree = "<group>"; };
+		058F91D523E436F300E8CA5B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		058F91D723E4371D00E8CA5B /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
 		193A015DF768C2FCEEEC9243 /* Pods-Fixtures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fixtures.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fixtures/Pods-Fixtures.release.xcconfig"; sourceTree = "<group>"; };
 		2D7EDF1A26E818EA707D1F67 /* Pods_Fixtures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fixtures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E997DC7474396999B3A62F6 /* Pods-Fixtures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fixtures.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fixtures/Pods-Fixtures.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +93,10 @@
 		058F919B23E42F0E00E8CA5B /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				058F91C923E435EB00E8CA5B /* Error */,
+				058F91C223E4347E00E8CA5B /* Samples */,
+				058F91C123E4347600E8CA5B /* Implementation */,
+				058F91BF23E4346600E8CA5B /* Request */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -85,6 +107,7 @@
 				058F91A023E42F5100E8CA5B /* BindableType.swift */,
 				058F91A223E42F7200E8CA5B /* Rx+.swift */,
 				058F91A423E42F9600E8CA5B /* StoryboardIdentifiable.swift */,
+				058F91D523E436F300E8CA5B /* Config.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -133,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				D8298DE3213D798100051654 /* Match.swift */,
+				058F91D723E4371D00E8CA5B /* Base.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -143,6 +167,41 @@
 				058F91BA23E4323B00E8CA5B /* FixturesViewController.swift */,
 			);
 			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		058F91BF23E4346600E8CA5B /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				058F91CD23E4365100E8CA5B /* GetMatchesRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		058F91C123E4347600E8CA5B /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				058F91CF23E4367700E8CA5B /* FixturesTarget.swift */,
+				058F91D123E4369B00E8CA5B /* FixtureServiceType.swift */,
+				058F91D323E436CB00E8CA5B /* FixturesService.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		058F91C223E4347E00E8CA5B /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				058F91C423E4348C00E8CA5B /* getHullMatches.json */,
+				058F91C323E4348C00E8CA5B /* teams.json */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		058F91C923E435EB00E8CA5B /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				058F91CA23E435F500E8CA5B /* FixturesError.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 		12EF9AAAA37C861B5438CEDC /* Frameworks */ = {
@@ -254,6 +313,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				058F91C623E4348C00E8CA5B /* getHullMatches.json in Resources */,
+				058F91C523E4348C00E8CA5B /* teams.json in Resources */,
 				D87E87E0213D6CF900D81EA0 /* LaunchScreen.storyboard in Resources */,
 				D87E87DD213D6CF900D81EA0 /* Assets.xcassets in Resources */,
 				D87E87DB213D6CF800D81EA0 /* Main.storyboard in Resources */,
@@ -305,16 +366,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				058F91D023E4367700E8CA5B /* FixturesTarget.swift in Sources */,
 				058F91A123E42F5100E8CA5B /* BindableType.swift in Sources */,
 				058F91AA23E42FEF00E8CA5B /* CollectionView+Idenfitiable.swift in Sources */,
+				058F91D423E436CB00E8CA5B /* FixturesService.swift in Sources */,
+				058F91D623E436F300E8CA5B /* Config.swift in Sources */,
+				058F91CE23E4365100E8CA5B /* GetMatchesRequest.swift in Sources */,
+				058F91CB23E435F500E8CA5B /* FixturesError.swift in Sources */,
 				058F91A523E42F9600E8CA5B /* StoryboardIdentifiable.swift in Sources */,
 				058F91AE23E4301C00E8CA5B /* ClassIdentifiable.swift in Sources */,
 				058F91A823E42FD100E8CA5B /* UITableView+Identifiable.swift in Sources */,
 				D87E87D6213D6CF800D81EA0 /* AppDelegate.swift in Sources */,
 				058F91AC23E4300500E8CA5B /* NibIdentifiable.swift in Sources */,
+				058F91D823E4371D00E8CA5B /* Base.swift in Sources */,
 				058F91A323E42F7200E8CA5B /* Rx+.swift in Sources */,
 				058F91BD23E4327400E8CA5B /* LaunchManager.swift in Sources */,
 				058F91BB23E4323B00E8CA5B /* FixturesViewController.swift in Sources */,
+				058F91D223E4369B00E8CA5B /* FixtureServiceType.swift in Sources */,
 				058F91B223E430A900E8CA5B /* UITableView+.swift in Sources */,
 				058F91B023E4308B00E8CA5B /* UIStoryboard+.swift in Sources */,
 				D8298DE4213D798100051654 /* Match.swift in Sources */,
