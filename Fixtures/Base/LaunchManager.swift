@@ -31,6 +31,8 @@ final class LaunchManager {
     }
     
     private func prepareFixturesController() -> FixturesViewController {
-        return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "FixturesViewController") as! FixturesViewController
+        var fixturesVC = FixturesViewController.instantiate()
+        fixturesVC.bind(to: FixturesViewModel())
+        return fixturesVC
     }
 }

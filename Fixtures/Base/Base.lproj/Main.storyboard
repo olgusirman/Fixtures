@@ -15,9 +15,29 @@
                     <view key="view" contentMode="scaleToFill" id="wv0-MN-IGX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="18z-Cl-7Jb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" id="LqQ-4j-7xd">
+                                <rect key="frame" x="178" y="323" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="zR0-wp-Uf7" firstAttribute="trailing" secondItem="18z-Cl-7Jb" secondAttribute="trailing" id="5N4-Av-1TS"/>
+                            <constraint firstItem="18z-Cl-7Jb" firstAttribute="leading" secondItem="zR0-wp-Uf7" secondAttribute="leading" id="9WZ-N9-UnR"/>
+                            <constraint firstItem="zR0-wp-Uf7" firstAttribute="bottom" secondItem="18z-Cl-7Jb" secondAttribute="bottom" id="K60-vo-Aqa"/>
+                            <constraint firstItem="18z-Cl-7Jb" firstAttribute="top" secondItem="zR0-wp-Uf7" secondAttribute="top" id="c7A-VD-BFq"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="zR0-wp-Uf7"/>
                     </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="LqQ-4j-7xd" id="WJ2-fZ-x0G"/>
+                        <outlet property="tableView" destination="18z-Cl-7Jb" id="wEG-di-CBD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RFI-3c-jPD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

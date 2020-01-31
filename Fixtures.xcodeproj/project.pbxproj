@@ -38,6 +38,14 @@
 		058F91EA23E43C6300E8CA5B /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91E923E43C6300E8CA5B /* Season.swift */; };
 		058F91EC23E43C7100E8CA5B /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91EB23E43C7100E8CA5B /* Status.swift */; };
 		058F91FC23E4412400E8CA5B /* FixturesServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F91FB23E4412400E8CA5B /* FixturesServiceTests.swift */; };
+		058F920323E44F0C00E8CA5B /* FixturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F920223E44F0C00E8CA5B /* FixturesViewModel.swift */; };
+		058F920523E44F3C00E8CA5B /* MatchCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F920423E44F3C00E8CA5B /* MatchCellViewModel.swift */; };
+		058F920723E44F5400E8CA5B /* MatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F920623E44F5400E8CA5B /* MatchCell.swift */; };
+		058F920A23E44F7A00E8CA5B /* MatchCellScheduledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F920923E44F7A00E8CA5B /* MatchCellScheduledView.swift */; };
+		058F920C23E44F9300E8CA5B /* MatchCellHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F920B23E44F9300E8CA5B /* MatchCellHeaderView.swift */; };
+		058F920E23E44FB800E8CA5B /* MatchCellScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F920D23E44FB800E8CA5B /* MatchCellScoreView.swift */; };
+		058F921023E44FE600E8CA5B /* MatchCellTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F920F23E44FE600E8CA5B /* MatchCellTeamView.swift */; };
+		058F921223E4503200E8CA5B /* MatchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 058F921123E4503200E8CA5B /* MatchCell.xib */; };
 		2685D7EB3C530F641023C614 /* Pods_Fixtures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7EDF1A26E818EA707D1F67 /* Pods_Fixtures.framework */; };
 		97412FB0C3FB93FCE157E857 /* Pods_FixturesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C43FECEBBF901F8D851D5315 /* Pods_FixturesTests.framework */; };
 		D87E87D6213D6CF800D81EA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87E87D5213D6CF800D81EA0 /* AppDelegate.swift */; };
@@ -90,6 +98,14 @@
 		058F91F123E4410400E8CA5B /* FixturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		058F91F523E4410400E8CA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		058F91FB23E4412400E8CA5B /* FixturesServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesServiceTests.swift; sourceTree = "<group>"; };
+		058F920223E44F0C00E8CA5B /* FixturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesViewModel.swift; sourceTree = "<group>"; };
+		058F920423E44F3C00E8CA5B /* MatchCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCellViewModel.swift; sourceTree = "<group>"; };
+		058F920623E44F5400E8CA5B /* MatchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCell.swift; sourceTree = "<group>"; };
+		058F920923E44F7A00E8CA5B /* MatchCellScheduledView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCellScheduledView.swift; sourceTree = "<group>"; };
+		058F920B23E44F9300E8CA5B /* MatchCellHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCellHeaderView.swift; sourceTree = "<group>"; };
+		058F920D23E44FB800E8CA5B /* MatchCellScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCellScoreView.swift; sourceTree = "<group>"; };
+		058F920F23E44FE600E8CA5B /* MatchCellTeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCellTeamView.swift; sourceTree = "<group>"; };
+		058F921123E4503200E8CA5B /* MatchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MatchCell.xib; sourceTree = "<group>"; };
 		193A015DF768C2FCEEEC9243 /* Pods-Fixtures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fixtures.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fixtures/Pods-Fixtures.release.xcconfig"; sourceTree = "<group>"; };
 		2D7EDF1A26E818EA707D1F67 /* Pods_Fixtures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fixtures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		335AC0FD85019A20A5CF75DA /* Pods-FixturesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FixturesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FixturesTests/Pods-FixturesTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -217,7 +233,9 @@
 		058F91B723E4314200E8CA5B /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
-				058F91BA23E4323B00E8CA5B /* FixturesViewController.swift */,
+				058F920123E44EE700E8CA5B /* Cell */,
+				058F920023E44EE500E8CA5B /* ViewModel */,
+				058F91FF23E44EDD00E8CA5B /* Controller */,
 			);
 			path = Fixtures;
 			sourceTree = "<group>";
@@ -264,6 +282,44 @@
 				058F91FB23E4412400E8CA5B /* FixturesServiceTests.swift */,
 			);
 			path = FixturesTests;
+			sourceTree = "<group>";
+		};
+		058F91FF23E44EDD00E8CA5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				058F91BA23E4323B00E8CA5B /* FixturesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		058F920023E44EE500E8CA5B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				058F920223E44F0C00E8CA5B /* FixturesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		058F920123E44EE700E8CA5B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				058F920823E44F6A00E8CA5B /* HelperViews */,
+				058F920423E44F3C00E8CA5B /* MatchCellViewModel.swift */,
+				058F920623E44F5400E8CA5B /* MatchCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		058F920823E44F6A00E8CA5B /* HelperViews */ = {
+			isa = PBXGroup;
+			children = (
+				058F920923E44F7A00E8CA5B /* MatchCellScheduledView.swift */,
+				058F920B23E44F9300E8CA5B /* MatchCellHeaderView.swift */,
+				058F920D23E44FB800E8CA5B /* MatchCellScoreView.swift */,
+				058F920F23E44FE600E8CA5B /* MatchCellTeamView.swift */,
+				058F921123E4503200E8CA5B /* MatchCell.xib */,
+			);
+			path = HelperViews;
 			sourceTree = "<group>";
 		};
 		12EF9AAAA37C861B5438CEDC /* Frameworks */ = {
@@ -415,6 +471,7 @@
 				058F91C623E4348C00E8CA5B /* getHullMatches.json in Resources */,
 				058F91C523E4348C00E8CA5B /* teams.json in Resources */,
 				D87E87E0213D6CF900D81EA0 /* LaunchScreen.storyboard in Resources */,
+				058F921223E4503200E8CA5B /* MatchCell.xib in Resources */,
 				D87E87DD213D6CF900D81EA0 /* Assets.xcassets in Resources */,
 				D87E87DB213D6CF800D81EA0 /* Main.storyboard in Resources */,
 			);
@@ -530,17 +587,24 @@
 				058F91AC23E4300500E8CA5B /* NibIdentifiable.swift in Sources */,
 				058F91D823E4371D00E8CA5B /* Base.swift in Sources */,
 				058F91A323E42F7200E8CA5B /* Rx+.swift in Sources */,
+				058F920E23E44FB800E8CA5B /* MatchCellScoreView.swift in Sources */,
 				058F91EC23E43C7100E8CA5B /* Status.swift in Sources */,
+				058F920A23E44F7A00E8CA5B /* MatchCellScheduledView.swift in Sources */,
 				058F91BD23E4327400E8CA5B /* LaunchManager.swift in Sources */,
 				058F91BB23E4323B00E8CA5B /* FixturesViewController.swift in Sources */,
 				058F91E823E43C5300E8CA5B /* ExtraTime.swift in Sources */,
 				058F91D223E4369B00E8CA5B /* FixtureServiceType.swift in Sources */,
+				058F920723E44F5400E8CA5B /* MatchCell.swift in Sources */,
 				058F91B223E430A900E8CA5B /* UITableView+.swift in Sources */,
 				058F91B023E4308B00E8CA5B /* UIStoryboard+.swift in Sources */,
 				058F91E423E43C3100E8CA5B /* Referee.swift in Sources */,
 				058F91DC23E43BD400E8CA5B /* Match.swift in Sources */,
 				058F91E223E43C1400E8CA5B /* Area.swift in Sources */,
+				058F920323E44F0C00E8CA5B /* FixturesViewModel.swift in Sources */,
 				058F91E023E43BFB00E8CA5B /* Competition.swift in Sources */,
+				058F921023E44FE600E8CA5B /* MatchCellTeamView.swift in Sources */,
+				058F920523E44F3C00E8CA5B /* MatchCellViewModel.swift in Sources */,
+				058F920C23E44F9300E8CA5B /* MatchCellHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
