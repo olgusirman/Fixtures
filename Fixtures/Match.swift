@@ -21,7 +21,7 @@ struct Match {
         let headers: HTTPHeaders = [
             "X-Auth-Token": "3ee966f08dbd47fb8bf5c3d378d541a5"
         ]
-
+/*
         Alamofire.request("http://api.football-data.org/v2/competitions/ELC/matches", headers: headers).responseJSON { response in
             if let json = response.result.value as? [String: Any] {
                 let matches = json["matches"] as? [[String: Any]]
@@ -36,6 +36,6 @@ struct Match {
 
                 completionHandler(collection)
             }
-        }
+        }*/
     }
 }
