@@ -19,7 +19,8 @@ struct Match: Codable {
     let utcDate: Date
     let status: Status
     let matchday: Int
-    let stage, group: String
+    let stage: String
+    let group: String?
     let lastUpdated: Date
     let score: Score
     var homeTeam: Team
