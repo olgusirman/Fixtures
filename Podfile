@@ -1,4 +1,4 @@
-platform :ios, '12.0'
+platform :ios, '16.4'
 
 def testPods
     pod 'RxBlocking'
@@ -17,7 +17,7 @@ def uiPods
 end
 
 def servicePods
-  pod 'Moya/RxSwift', '~> 14.0.0-beta.6'
+  pod 'Moya/RxSwift'
 end
 
 target 'Fixtures' do

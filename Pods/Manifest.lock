@@ -1,33 +1,33 @@
 PODS:
-  - Action (4.0.0):
-    - RxCocoa (~> 5.0)
-    - RxSwift (~> 5.0)
-  - Alamofire (5.0.0-rc.3)
-  - Differentiator (4.0.1)
-  - Moya/Core (14.0.0-beta.6):
-    - Alamofire (= 5.0.0-rc.3)
-  - Moya/RxSwift (14.0.0-beta.6):
+  - Action (5.0.0):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - Alamofire (5.6.4)
+  - Differentiator (5.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
     - Moya/Core
-    - RxSwift (~> 5.0)
-  - Nuke (8.4.0)
-  - RxBlocking (5.0.1):
-    - RxSwift (~> 5)
-  - RxCocoa (5.0.1):
-    - RxRelay (~> 5)
-    - RxSwift (~> 5)
-  - RxDataSources (4.0.1):
-    - Differentiator (~> 4.0)
-    - RxCocoa (~> 5.0)
-    - RxSwift (~> 5.0)
-  - RxRelay (5.0.1):
-    - RxSwift (~> 5)
-  - RxSwift (5.0.1)
-  - RxTest (5.0.1):
-    - RxSwift (~> 5)
+    - RxSwift (~> 6.0)
+  - Nuke (10.7.1)
+  - RxBlocking (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - RxTest (6.5.0):
+    - RxSwift (= 6.5.0)
 
 DEPENDENCIES:
   - Action
-  - Moya/RxSwift (~> 14.0.0-beta.6)
+  - Moya/RxSwift
   - Nuke
   - RxBlocking
   - RxCocoa
@@ -50,18 +50,18 @@ SPEC REPOS:
     - RxTest
 
 SPEC CHECKSUMS:
-  Action: 0d14986aad0f1330aa27ce65d0cdeaacbb63d91c
-  Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
-  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
-  Moya: d4821fbcb3e784f34d2f82869e6855057a0b85d1
-  Nuke: fa6f784c4f7e1c0f9313668510186c68b7af2509
-  RxBlocking: c5e090f42d046df8b0e7752742510f349963710f
-  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
-  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
-  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
-  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
-  RxTest: 0132f952a61da82d5233abedaa559df91e5330e5
+  Action: 47f1825511907b4fcd79dd7a7db9526c20f78018
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  Nuke: 279f17a599fd1c83cf51de5e0e1f2db143a287b0
+  RxBlocking: 04b5fd28bb5ea49f7d64b80db8bbfe50d9cc1c7d
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  RxTest: eb2d23adefc5a5ebf5779c7792fa3edfe6ebcc17
 
-PODFILE CHECKSUM: 3cc8304e6199ebc5a9403ee4749a6acdc59eb720
+PODFILE CHECKSUM: 0130fb7d5ab7f0fda8e742c51ab5c363ddc8a885
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.12.0
